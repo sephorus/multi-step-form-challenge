@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: underline;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    height: 33px;
+    width: 33px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
